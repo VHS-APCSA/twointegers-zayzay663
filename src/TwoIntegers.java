@@ -29,7 +29,7 @@ public class TwoIntegers
 	
 	public int getNum2()
 	{
-		return num2;
+		return num2; 
 	}
 	
 	public void setNum2(int num2)
@@ -39,13 +39,10 @@ public class TwoIntegers
 
 	public String arithmetic()
 	{
-		int nums = num1 + num2;
-		int nump = num1 * num2;
-		int numd = num1 / num2;
-		int numq = num1 % num2;
-		
-		return num1 " + " "=" " nums
-		
+		return(num1 + " + " + num2 +  " = " + (num1 + num2) + "," +
+				num1 + " * " + num2 + " = " + (num1 * num2) + "," + 
+				num1 + " / " + num2 + " = " + (num1 / num2) + "," +
+				num1 + " % " + num2 + " = " + (num1 % num2) + ",");
 	}
 	
 }
