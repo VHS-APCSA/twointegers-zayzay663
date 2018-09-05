@@ -71,7 +71,7 @@ public class TwoIntegers
 	
 	public boolean isEven2()
 	{
-		 
+		  
 	}
 	
 }
