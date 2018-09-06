@@ -39,9 +39,9 @@ public class TwoIntegers
 
 	public String arithmetic()
 	{
-		return(num1 + " + " + num2 +  " = " + (num1 + num2) + "," +
-				num1 + " * " + num2 + " = " + (num1 * num2) + "," + 
-				num1 + " / " + num2 + " = " + (num1 / num2) + "," +
+		return(num1 + " + " + num2 +  " = " + (num1 + num2) + " , " +
+				num1 + " * " + num2 + " = " + (num1 * num2) + " , " + 
+				num1 + " / " + num2 + " = " + (num1 / num2) + " , " +
 				num1 + " % " + num2 + " = " + ((double) num1 % num2) + ",");
 	}
 	
@@ -71,7 +71,16 @@ public class TwoIntegers
 	
 	public boolean isEven2()
 	{
-		
+		if(num2 % num1 == 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
 	}
+	
+	
 	
 }
