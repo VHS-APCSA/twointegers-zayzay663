@@ -16,6 +16,14 @@ public class TwoIntegersRunner
 		String a = twointegers.arithmetic();
 		System.out.println(a);
 		
+		int l = twointegers.larger();
+		System.out.println(l + " is the larger number");
+		
+		boolean even = twointegers.isEven();
+		System.out.println("It is  " + even + " that the sum of the two numbers is even");
+		
+		boolean even2 = twointegers.isEven2();
+		System.out.println("It is " + even2 + " that " + num1 + " is a factor of " + num2);
 		
 	}
 	

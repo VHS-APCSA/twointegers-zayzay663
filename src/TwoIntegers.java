@@ -80,7 +80,7 @@ public class TwoIntegers
 			return false;
 		}
 	}
-	
+	 
 	
 	
 }
